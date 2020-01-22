@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700');
+
+      html, body {
+      overflow-x: hidden;
+      font-family: 'IBM Plex Sans', sans-serif;
+      color: #505962;
+      background-color: #ebefea;
+      }
+      .nav-name{
+      font-family: 'Ma Shan Zheng', cursive;
+      }
+      .pd-parallax{
+      position: relative;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 650px;
+      margin: 0;
+      padding: 0;
+      }
+      .pd-parallax h1{
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+      }
+      .pd-parallax .pd-title{
+      text-align: center;
+      padding-top: 150px;
+      width: 400px;
+      margin: 0 auto;
+      }
+      footer {
+      background-color: #40474e;
+      background-size: cover;
+      color: white;
+      }
+      footer .row {
+      padding: 1.5rem 0 4rem;
+      line-height: 2rem;
+      }
+      footer img {
+      margin: 1.5rem 0;
+      }
+      footer h3 {
+      margin: 1.5rem 0;
+      }
+
+      
+      .first {
+        padding-top:140px;
+        min-height:400px;
+        background-size:cover;
+        height: 650px;
+        background-image:url('img/homepagebackground.webp');
+      }
+      .thankucenter{
+	margin: auto;
+	text-align: center;
+	padding: 250px 0;
+      }
+    /*-- Extra Bootstrap Column Padding --*/
+
+    [class*="col-"] {
+      padding: 1rem;
+    }
+
+    /*-- media querys---*/
+    /* Smartphones (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+      /* Styles */
+      
+        .first {
+          background-size:cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+      }
+      
+      /* Smartphones (landscape) ----------- */
+      @media only screen and (min-width : 321px) {
+      /* Styles */
+      
+        .first {
+          background-size:cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+      }
+      
+      /* Smartphones (portrait) ----------- */
+      @media only screen and (max-width : 320px) {
+      /* Styles */
+      
+        .first {
+          background-size:cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+      }
